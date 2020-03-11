@@ -8,6 +8,7 @@ int main(void)
 {
   char* str;
 
+  //-- need char 64bytes
   str = (char*)malloc(sizeof(char)*64 );
   if ( str == NULL ){
     puts("fails in securing\n");
